@@ -33,7 +33,7 @@ public class PrimeNumbers {
 
     public int countPrimesInRange(int start, int end) {
         if (start < 0 || end > 1000 || start > end) {
-            throw new IllegalArgumentException("Fel intervall angivet!");
+            throw new IllegalArgumentException("Hoppsan, fel intervall angivet!");
         }
         int count = 0;
         for (int num = start; num <= end; num++) {
@@ -46,7 +46,7 @@ public class PrimeNumbers {
 
     public int sumPrimesInRange(int start, int end) {
         if (start < 0 || end > 1000 || start > end) {
-            throw new IllegalArgumentException("Fel intervall angivet!");
+            throw new IllegalArgumentException("Hoppsan, Fel intervall angivet!");
         }
         int totalSum = 0;
         for (int num = start; num <= end; num++) {
